@@ -89,7 +89,7 @@ section#world h1{
 
 main{
 	margin: auto;
-	max-width: 1200px;
+	max-width: 100%;
 	min-width: 300px;
 
 	background-image: url('imagens/istockphoto-1298777114-170667a.jpg');
@@ -144,10 +144,31 @@ main p{
 
 #conteudo2 > h2{
 	font-size: 3.4em;
-	padding: 20px;
+	padding: 20px 20px 0px 20px;
 	font-family: var(--font-titulo);
 	color: #B150F2;
 	text-shadow: 1px 0px 7px #000000;
+}
+
+div{
+	text-align: center;
+	padding: 10px 0px 30px 0px;
+}
+
+div a{
+    padding: 7px;
+	border-radius: 8px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-decoration: none;
+	color: var(--cor3);
+	font-size: 1.1em;
+}
+
+div a:hover{
+	background-color: #B150F2;
+	color: #282140;
+	transition-duration: 0.4s;
 }
 
 footer{
